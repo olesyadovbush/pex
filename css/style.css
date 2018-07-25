@@ -1,0 +1,461 @@
+@font-face { 
+    font-family: "WebFont";
+    src: url(fonts/Freight\ Sans\ Light.otf) format("truetype"); 
+}
+@font-face { 
+    font-family: "pex";
+    src: url(fonts/bolditalic.otf) format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+   font-family: "Webfont", sans-serif;
+   background: #593E4D;
+
+}
+/*header*/
+.topnav{
+ width: 100%;
+ box-sizing: border-box;
+ background:url(img/formenu.jpg);
+ background-size: 100% 81px;
+ display: flex;
+ justify-content:space-around;
+ padding: 0;
+}
+.logo{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.logo span{
+    font-family: "pex", sans-serif;
+    color: #E6526A;
+    font-size: 20px;
+}
+.logo p{
+    font-size: 10px;
+    padding: 10px 0 0 5px;
+    font-style: italic;
+    color: #CDC8CC;
+}
+.menu {
+    width: 50%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.menu li{
+    display: flex;
+    list-style: none;
+    padding: 1px;
+}
+.menu a{
+    box-sizing: border-box; 
+    font-size: 14px;
+    color: #CDC8CC;  
+    text-align: center; 
+    height: 79px;
+    padding: 20px 20px 0 20px;
+}
+.menu a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+/*Image*/
+.mainSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url(img/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.maintext{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+.maintext button{
+    height: 50px;
+    width: 200px;
+    margin: 20px 20px 0 0;
+    background: #8724CD; 
+    font-family: "WebFont";
+    font-weight: bold;
+    color: #FBFFFE;
+    border: none;
+    border-radius: 30px;   
+}
+.maintext button:hover{
+    cursor: pointer;
+    background-color: #593E4D;
+    color: #AAB2BD;
+}
+.maintext h1{
+    text-align: right;
+    font-size: 40px;
+    padding: 20px;
+    color: #FBFFFE;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.maintext p{
+    margin: 0 20px 0 0; 
+    font-size: 10px;
+    color: #FBFFFE;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+}
+
+/*Section text*/
+.gray{
+    width: 100%;
+    color: #AAB2BD;
+    line-height: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #2E3B4E;
+    font-size: 14px;
+}
+.text1{
+    width: 50%;
+    height: 100%px;
+    text-align: justify;
+}
+.text1 ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 50px 20px 70px 250px;
+    margin: auto 0;
+    list-style: none;
+}
+ ul li{
+    padding: 10px;
+}
+.text2{
+    width: 50% ;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: justify;
+}
+.text2 ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px 250px 70px 20px;
+    margin: auto 0;
+    list-style: none;
+}
+.gray ul li:nth-child(odd){
+    font-weight: bold;
+    color: #FBFFFE;
+}
+/*Section opacity with text*/
+.opacity{    
+    background: url(img/pinkForest.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid{
+    width: 450px;
+    height: 400px;
+    color:#FCEBF2;
+    text-align: center;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+.mid span{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.mid p{
+    padding: 20px;
+    line-height: 1.5em;
+}
+.mid button{
+    height: 50px;
+    width: 250px;
+    margin: 20px 20px 0 0;
+    background: white; 
+    font-family: "WebFont";
+    font-weight: bold;
+    font-size: 14px;
+    color: #DB3E5B;
+    border-radius: 30px;
+    border: none;   
+}
+.mid button:hover{
+    background: #B94256;
+    color: #fff;
+    cursor: pointer;
+}
+/*Image and article*/
+.imgarticle{
+    background:white;
+    width: 100%;
+    height: 434px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.image{
+    background: url(img/hand.jpg);
+    width: 45%;
+    background-size: cover;
+    background-position: center;
+
+}
+.article{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color:#3A4C5F; 
+}
+.middle{
+    width: 500px;
+    line-height: 1.5em;
+
+}
+.middle span{
+    font-weight: bold;
+}
+
+.middle p{
+    padding: 20px 0;
+    font-size: 12px;
+}
+/*Section mountain*/
+.mountain{
+    width: 100%;
+    height: 439px;
+    background: url(img/forest.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.violet{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 89px;
+    background: rgba(74,28,90,.7);
+    display: flex;
+    justify-content: center;
+}
+.midtext{
+    width: 550px;
+    height: 350px;
+    color: #FBFFFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midtext h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+.midtext span{
+    padding: 20px;
+    color: #996BA9;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: bold;
+}
+.midtext button{
+    height: 50px;
+    width: 200px;
+    margin: 20px 20px 0 0;
+    background: #8724CD; 
+    font-family: "WebFont";
+    font-weight: bold;
+    color: #FBFFFE;
+    border: none;
+    border-radius: 30px;
+}
+.midtext button:hover{
+    cursor: pointer;
+    background-color: #593E4D;
+    color: #AAB2BD;
+}
+.midtext p{
+    margin: 0 20px 0 0; 
+    font-size: 10px;
+    color: #FBFFFE;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+}
+.food{
+    width: 100%;
+    height: 601px;
+    background: url(img/food.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.textcontainer{
+    width: 45%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.container{
+    width: 400px;
+    height: 250px;
+    color: #FBFFFE;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+}
+.container h2{
+    font-size: 30px;
+}
+.container button{
+    height: 30px;
+    width: 120px;
+    margin: 20px 20px 0 0;
+    background: transparent; 
+    font-family: "WebFont";
+    font-weight: bold;
+    color: #FBFFFE;
+    border-radius: 30px;
+    border: 1px solid #FBFFFE;
+    margin-bottom: 20px;
+}
+.container button:hover{
+ cursor: pointer;
+ border: 1px solid #2A2A2A;
+ background: #2A2A2A;
+ color: #AAB2BD;
+}
+.container p{
+    font-size: 10px;
+    padding-top: 20px;
+}
+.robar{
+    display: flex;
+    padding: 20px 20px 0 0;
+}
+.robar img{
+    border-radius: 50%;
+    padding: 10px;
+}
+.articleimg{
+    width: 100%;
+    height: 434px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.imgright{
+    width: 40%;
+    height: 100%;
+    background: url(img/watch.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.last{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #E6526A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+}
+
+.lasttext{
+    width: 40%;
+    height: 60%;
+    line-height: 1.5em;
+}
+.lasttext a{
+    text-decoration: underline;
+    color: white; 
+}
+.form{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+width: 90%;
+height: 30px;
+background: #FFA0B8;
+border: none;
+padding-left: 10px;
+
+}
+.form textarea{
+    width: 90%;
+    height: 120px;
+    background: #FFA0B8;
+    border: none;
+    resize: none;
+    padding-left: 10px;
+}
+.form button{
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    background: #FF8EAA;
+    border: none;
+    color: white;
+}
+.form button:hover{
+    background: rgb(247, 175, 193);
+    cursor: pointer;
+    color: grey;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background: #3A4C5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
